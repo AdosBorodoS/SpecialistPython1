@@ -6,3 +6,11 @@ import random
 numbers = []
 # print(random.randint(10, 20))  # раскомментируйте, чтобы посмотреть работу функции randint
 # TODO: your code here
+
+n = int(input("Введите количество элеменов в массиве: "))
+i = 0
+
+while i <= n-1:
+    numbers.append(random.randint(-100,100))
+    print(numbers[i])
+    i += 1
